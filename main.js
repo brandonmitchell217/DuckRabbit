@@ -56,7 +56,7 @@ for (let i = 0; i < selectionBtns.length && i < slides.length; i++) {
       slide.style.transform = 'translate(160%, -50%)'
     })
     slides[i].style.transform = 'translate(0, -50%)'
-    const tl = gsap.timeline({ delay: 0.25 })
+    const tl = gsap.timeline({ delay: 0.15 })
     tl.from('.title', { duration: 1.5, opacity: 0, x: 300 })
     tl.from('.redRec', { duration: 1, x: '100%' }, '-=1')
     tl.from('.content', { duration: 1.5, opacity: 0, x: 300 }, '-=1.5')
